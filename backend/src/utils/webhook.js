@@ -1,7 +1,7 @@
 const axios = require("axios")
 require("dotenv").config()
 
-const WEBHOOK_URL = process.env.WEBHOOK_URL // e.g. https://webhook.site/your-id
+const WEBHOOK_URL = process.env.WEBHOOK_URL 
 
 exports.triggerWebhook = async (job) => {
   if (!WEBHOOK_URL) {
