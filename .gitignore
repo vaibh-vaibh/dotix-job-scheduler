@@ -1,0 +1,18 @@
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/dist/
+frontend/.DS_Store
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/dist/
+backend/.DS_Store
+
+# System
+.DS_Store
+.idea/
+.vscode/settings.json
+*.log
